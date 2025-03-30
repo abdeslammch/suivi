@@ -155,15 +155,16 @@
             margin-top: 30px;
         }
         .selection-container button {
-            background-color: #0a3d91;
-            color: white;
-            padding: 12px 25px;
-            border: none;
-            border-radius: 6px;
-            cursor: pointer;
-            font-size: 16px;
-            margin: 0 12px;
-            transition: background-color 0.3s ease;
+    background-color: #0a3d91;
+    color: white;
+    padding: 4px 6px;
+    border: none;
+    border-radius: -2px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 6px 14px;
+    transition: background-color 0.3s ease;
+}
         }
         .selection-container button:hover {
             background-color: #ffd700;
@@ -302,7 +303,7 @@
         <button id="date-picker-btn">Sélectionner la période</button>
     </div>
 
-    <div class="calendar-dropdown" id="calendar-dropdown" style="display: none; position: absolute; background: #fff; border: 1px solid #ccc; padding: 10px; border-radius: 5px;">
+    <div class="calendar-dropdown" id="calendar-dropdown" style="display: none; position: absolute; background: #fff; border: 1px solid #ccc; padding: 10px; border-radius: 5px; z-index:1;">
         <button id="last-7-days">7 derniers jours</button>
         <button id="last-15-days">15 derniers jours</button>
         <button id="last-month">Ce mois</button>
